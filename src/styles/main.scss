@@ -1,0 +1,22 @@
+@use "./config/reset.scss";
+@use "./config/variaveis.scss";
+@use "./header";
+@use "./hero";
+@use "./barra";
+@use "./about";
+@use "./services";
+@use "./info";
+@use "./feed";
+
+body {
+    background-color: variaveis.$colorBackground;
+}
+
+.title {
+    font-size: 38px;
+}
+
+.title-small {
+    font-size: 28px;
+}
+

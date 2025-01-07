@@ -1,0 +1,19 @@
+.barra {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+
+    .navbar {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        .item {
+            border: none;
+
+            a {
+                text-decoration: none;
+            }
+
+        }
+    }
+}

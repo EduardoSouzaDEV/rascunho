@@ -1,0 +1,32 @@
+@use "./config/variaveis.scss";
+
+.info {
+    display: flex;
+    margin-bottom: 40px;
+
+    .info_text {
+        padding: 0 50px;
+        max-width: 400px;
+
+        .title {
+            font-size: 28px;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+
+        .item {
+            background-color: #000;
+            border-radius: 20px;
+            border: 1px solid ;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+    }
+
+    .info_image {
+        
+        img {
+            border-radius:  20px;
+        }
+    }
+}

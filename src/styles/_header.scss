@@ -1,0 +1,33 @@
+@use "./config/variaveis.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    .navbar {
+        gap: 15px;
+        display: flex;
+        
+        a {
+            border-bottom: 1px solid variaveis.$colorPrimary;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    }
+
+    button {
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: variaveis.$colorPrimary;
+        color: #000;
+        cursor: pointer;
+        border: 2px solid variaveis.$colorPrimary;
+    }
+
+    button:hover {
+        color: #fff;
+        background-color: variaveis.$colorBackground;
+        border: 2px solid variaveis.$colorPrimary;
+    }
+}
