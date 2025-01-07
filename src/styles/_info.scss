@@ -5,26 +5,24 @@
     margin-bottom: 40px;
 
     .info_text {
-        padding: 0 50px;
-        max-width: 400px;
+        padding: 50px;
 
         .title {
-            font-size: 28px;
-            width: 200px;
-            margin-bottom: 10px;
+            width: 300px;
+            margin-bottom: 20px;
         }
 
         .item {
             background-color: #000;
+            width: 300px;
             border-radius: 20px;
             border: 1px solid ;
             margin-bottom: 10px;
-            padding: 20px;
+            padding: 30px;
         }
     }
 
     .info_image {
-        
         img {
             border-radius:  20px;
         }

@@ -148,20 +148,19 @@
   margin-bottom: 40px;
 }
 .info .info_text {
-  padding: 0 50px;
-  max-width: 400px;
+  padding: 50px;
 }
 .info .info_text .title {
-  font-size: 28px;
-  width: 200px;
-  margin-bottom: 10px;
+  width: 300px;
+  margin-bottom: 20px;
 }
 .info .info_text .item {
   background-color: #000;
+  width: 300px;
   border-radius: 20px;
   border: 1px solid;
   margin-bottom: 10px;
-  padding: 20px;
+  padding: 30px;
 }
 .info .info_image img {
   border-radius: 20px;
@@ -186,7 +185,7 @@ body {
 }
 
 .title {
-  font-size: 38px;
+  font-size: 44px;
 }
 
 .title-small {
