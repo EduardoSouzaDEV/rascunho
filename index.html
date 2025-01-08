@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./build/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
     <div class="container">
-        <header class="header">
+        <header class="header" id="header">
             <div class="navbar">
-                <a href="#">Inicio</a>
-                <a href="#">Sobre nós</a>
-                <a href="#">Serviços</a>
+                <a href="#hero">Inicio</a>
+                <a href="#about">Sobre nós</a>
+                <a href="#services">Serviços</a>
             </div>
             <button type="submit">
                 Contato
             </button>
         </header>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="center">
                 <h1 class="title">Transforme sua Presença Digital em Resultados Reais</h1>
             <p>
@@ -34,44 +36,58 @@
         </section>
 
         <section class="barra">
-            <span>seta</span>
+            <a href="#about">
+                <span>
+                    <i class='seta bx bx-down-arrow-circle'></i>
+                </span>
+            </a>
             <nav class="social">
                 <ul class="navbar">
                     <li class="item">
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <span>rede</span>
+                            <span>
+                                <i class='bx bxl-whatsapp' style='color: #000'></i>
+                            </span>
                         </a>
                     </li>
                     <li class="item">
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <span>rede</span>
+                            <span>
+                                <i class='bx bxl-instagram' style='color: #000'></i>
+                            </span>
                         </a>
                     </li>
                     <li class="item">
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <span>rede</span>
+                            <span>
+                                <i class='bx bxl-facebook' style='color: #000'></i>
+                            </span>
                         </a>
                     </li>
                     <li class="item">
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <span>rede</span>
+                            <span>
+                                <i class='bx bxl-linkedin' style='color:#000' ></i>
+                            </span>
                         </a>
                     </li>
                     <li class="item">
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <span>rede</span>
+                            <span>
+                                <i class='bx bxl-twitter' style='color:#000' ></i>
+                            </span>
                         </a>
                     </li>
                 </ul>
             </nav>
         </section>
 
-        <section class="about">
+        <section class="about" id="about" data-aos="fade-up" data-aos-delay="50">
             <div class="about_image">
                 <img src="https://i.pinimg.com/736x/6c/8a/86/6c8a8623b7a1b3bdf4c5d38cc173703c.jpg" alt="imagem">
             </div>
             <div class="about_text">
-                <h1 class="title">Somos a <span>a</span>lpi</h1>
+                <h1 class="title">Somos a <span class="span_color">a</span>lpi</h1>
                 <p>
                     Na Alpi, ajudamos empresários digitais e marcas pessoais a se destacarem no mercado com soluções que
                     unem estratégia, ciatividade e resultado.
@@ -83,57 +99,67 @@
                 </p>
                 <hr class="linha">
                 <p>
-                    <span>Nosso compromisso?</span> Tornar o digital mais simples, bonito e lucrativo para você.
+                    <span class="span_color">Nosso compromisso?</span> Tornar o digital mais simples, bonito e lucrativo para você.
                 </p>
             </div>
         </section>
 
-        <section class="services">
+        <section class="services" id="services" data-aos="fade-up" data-aos-delay="50">
             <h1 class="title">
-                <span>Nossos Serviços</span> - Feitos para Profissionalizar Sua Marca
+                <span class="span_color">Nossos Serviços</span> - Feitos para Profissionalizar Sua Marca
             </h1>
             <div class="services_info">
                 <nav class="services_nav">
                     <div class="item">
-                        <h2 class="title-small">Indentidade Visual <span>seta</span></h1>
+                        <h2 class="title-small">Indentidade Visual <span>
+                            <i class='seta bx bx-left-down-arrow-circle bx-rotate-180' ></i>
+                        </span></h1>
                             <hr class="borda">
-                        <h6><span>Sua marca merece ser lembrada.</span></h6>
+                        <h6><span class="span_color">Sua marca merece ser lembrada.</span></h6>
                         <p>
                             Uma indetidade visual sólida não é apenas estética;ela comunica quem você é, atrai o público
                             certo e transmite confiança desde o primeiro contato.
                         </p>
                     </div>
                     <div class="item">
-                        <h2 class="title-small">Indentidade Visual <span>seta</span></h2>
+                        <h2 class="title-small">Indentidade Visual <span>
+                            <i class='seta bx bx-left-down-arrow-circle bx-rotate-180' ></i>
+                        </span></h2>
                         <hr class="borda">
-                        <h6><span>Sua marca merece ser lembrada.</span></h6>
+                        <h6><span class="span_color">Sua marca merece ser lembrada.</span></h6>
                         <p>
                             Uma indetidade visual sólida não é apenas estética;ela comunica quem você é, atrai o público
                             certo e transmite confiança desde o primeiro contato.
                         </p>
                     </div>
                     <div class="item">
-                        <h2 class="title-small">Indentidade Visual <span>seta</span></h2>
+                        <h2 class="title-small">Indentidade Visual <span>
+                            <i class='seta bx bx-left-down-arrow-circle bx-rotate-180' ></i>
+                        </span></h2>
                         <hr class="borda">
-                        <h6><span>Sua marca merece ser lembrada.</span></h6>
+                        <h6><span class="span_color">Sua marca merece ser lembrada.</span></h6>
                         <p>
                             Uma indetidade visual sólida não é apenas estética;ela comunica quem você é, atrai o público
                             certo e transmite confiança desde o primeiro contato.
                         </p>
                     </div>
                     <div class="item">
-                        <h2 class="title-small">Indentidade Visual <span>seta</span></h2>
+                        <h2 class="title-small">Indentidade Visual <span>
+                            <i class='seta bx bx-left-down-arrow-circle bx-rotate-180' ></i>
+                        </span></h2>
                         <hr class="borda">
-                        <h6><span>Sua marca merece ser lembrada.</span></h6>
+                        <h6><span class="span_color">Sua marca merece ser lembrada.</span></h6>
                         <p>
                             Uma indetidade visual sólida não é apenas estética;ela comunica quem você é, atrai o público
                             certo e transmite confiança desde o primeiro contato.
                         </p>
                     </div>
                     <div class="item">
-                        <h2 class="title-small">Indentidade Visual <span>seta</span></h2>
+                        <h2 class="title-small">Indentidade Visual <span>
+                            <i class='seta bx bx-left-down-arrow-circle bx-rotate-180' ></i>
+                        </span></h2>
                         <hr class="borda">
-                        <h6><span>Sua marca merece ser lembrada.</span></h6>
+                        <h6><span class="span_color">Sua marca merece ser lembrada.</span></h6>
                         <p>
                             Uma indetidade visual sólida não é apenas estética;ela comunica quem você é, atrai o público
                             certo e transmite confiança desde o primeiro contato.
@@ -143,19 +169,19 @@
             </div>
         </section>
 
-        <section class="info">
+        <section class="info" data-aos="fade-up" data-aos-delay="50">
             <div class="info_text">
                 <h1 class="title">Por que Profissionalizar Seu Negócio Com a Gente?</h1>
                 <div class="item">
-                    <h6><span>Posicionamento Estratégico: </span>Para de competir pelo preço e comece a competir pelo
+                    <h6><span class="span_color">Posicionamento Estratégico: </span>Para de competir pelo preço e comece a competir pelo
                         valor</h6>
                 </div>
                 <div class="item">
-                    <h6><span>Posicionamento Estratégico: </span>Para de competir pelo preço e comece a competir pelo
+                    <h6><span class="span_color">Posicionamento Estratégico: </span>Para de competir pelo preço e comece a competir pelo
                         valor</h6>
                 </div>
                 <div class="item">
-                    <h6><span>Posicionamento Estratégico: </span>Para de competir pelo preço e comece a competir pelo
+                    <h6><span class="span_color">Posicionamento Estratégico: </span>Para de competir pelo preço e comece a competir pelo
                         valor</h6>
                 </div>
             </div>
@@ -164,7 +190,7 @@
             </div>
         </section>
 
-        <section class="feed">
+        <section class="feed" data-aos="fade-up" data-aos-delay="50">
             <div class="container_feed">
                 <h1 class="title">Junte-se a Empreendedores Digitais de Sucesso</h1>
             <p>
@@ -174,6 +200,10 @@
             </div>
         </section>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

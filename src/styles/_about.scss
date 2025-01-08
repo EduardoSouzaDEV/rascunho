@@ -4,16 +4,16 @@
     display: flex;
 
     .about_image {
-        padding: 20px;
+        margin: 5dvh;
         img {
+            width: 480px;
             border-radius: 20px;
-
         }
     }
 
 
     .about_text {
-        padding: 20px 50px;
+        padding: 50px 90px;
 
         .title {
             margin-bottom: 30px;

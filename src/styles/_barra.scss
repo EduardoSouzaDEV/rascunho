@@ -1,17 +1,31 @@
+@use "./config/variaveis.scss";
+
 .barra {
     display: flex;
     justify-content: space-between;
     margin: 40px 0;
 
+    .seta {
+        font-size: 22px;
+        color: variaveis.$colorPrimary;
+        cursor: pointer;
+    }
+
     .navbar {
         display: flex;
         list-style: none;
         gap: 10px;
+
+
         .item {
             border: none;
 
             a {
                 text-decoration: none;
+                background-color: variaveis.$colorPrimary;
+                padding: 2px;
+                border-radius: 5px;
+                color: #000;
             }
 
         }

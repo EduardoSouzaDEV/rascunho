@@ -53,7 +53,7 @@
   text-align: center;
 }
 .hero .center {
-  max-width: 500px;
+  max-width: 450px;
   margin: 0 auto;
   width: 100%;
   margin-top: 30px;
@@ -81,6 +81,11 @@
   justify-content: space-between;
   margin: 40px 0;
 }
+.barra .seta {
+  font-size: 22px;
+  color: #C4E538;
+  cursor: pointer;
+}
 .barra .navbar {
   display: flex;
   list-style: none;
@@ -91,19 +96,24 @@
 }
 .barra .navbar .item a {
   text-decoration: none;
+  background-color: #C4E538;
+  padding: 2px;
+  border-radius: 5px;
+  color: #000;
 }
 
 .about {
   display: flex;
 }
 .about .about_image {
-  padding: 20px;
+  margin: 5dvh;
 }
 .about .about_image img {
+  width: 480px;
   border-radius: 20px;
 }
 .about .about_text {
-  padding: 20px 50px;
+  padding: 50px 90px;
 }
 .about .about_text .title {
   margin-bottom: 30px;
@@ -133,6 +143,10 @@
   max-width: 400px;
   padding: 30px;
 }
+.services .services_nav .item .seta {
+  font-size: 18px;
+  color: #C4E538;
+}
 .services .services_nav .item h2 {
   margin-bottom: 10px;
 }
@@ -148,7 +162,7 @@
   margin-bottom: 40px;
 }
 .info .info_text {
-  padding: 50px;
+  padding: 10px 50px;
 }
 .info .info_text .title {
   width: 300px;
@@ -164,6 +178,7 @@
 }
 .info .info_image img {
   border-radius: 20px;
+  height: 550px;
 }
 
 .feed {
@@ -189,7 +204,11 @@ body {
 }
 
 .title-small {
-  font-size: 28px;
+  font-size: 20px;
+}
+
+.span_color {
+  color: #C4E538;
 }
 
 /*# sourceMappingURL=main.css.map */

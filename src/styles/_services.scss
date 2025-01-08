@@ -1,3 +1,5 @@
+@use "./config/variaveis.scss";
+
 .services {
     padding: 70px;
 
@@ -13,6 +15,11 @@
         .item {
             max-width: 400px;
             padding: 30px;
+
+            .seta {
+                font-size: 18px;
+                color:variaveis.$colorPrimary;
+            }
 
 
             h2 {
