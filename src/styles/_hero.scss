@@ -2,12 +2,13 @@
 
 .hero {
     text-align: center;
+    background-color: variaveis.$colorBackground;
+    padding: 60px 0;
     
     .center {
-        max-width: 450px;
+        max-width: 550px;
         margin: 0 auto;
         width: 100%;
-        margin-top: 30px;
 
         p {
             margin: 20px 0;

@@ -9,6 +9,7 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  background-color: #1e272e;
 }
 @media (max-width: 1024px) {
   .container {
@@ -51,12 +52,13 @@
 
 .hero {
   text-align: center;
+  background-color: #1e272e;
+  padding: 60px 0;
 }
 .hero .center {
-  max-width: 450px;
+  max-width: 550px;
   margin: 0 auto;
   width: 100%;
-  margin-top: 30px;
 }
 .hero .center p {
   margin: 20px 0;
@@ -79,7 +81,8 @@
 .barra {
   display: flex;
   justify-content: space-between;
-  margin: 40px 0;
+  padding: 60px 30px;
+  background-color: #1e272e;
 }
 .barra .seta {
   font-size: 22px;
@@ -104,6 +107,7 @@
 
 .about {
   display: flex;
+  padding: 40px 0;
 }
 .about .about_image {
   margin: 5dvh;
@@ -160,6 +164,7 @@
 .info {
   display: flex;
   margin-bottom: 40px;
+  padding: 40px 0;
 }
 .info .info_text {
   padding: 10px 50px;
@@ -184,9 +189,10 @@
 .feed {
   background-color: #000;
   text-align: center;
+  padding: 40px 0;
 }
 .feed .container_feed {
-  max-width: 450px;
+  max-width: 817px;
   margin: 0 auto;
   width: 100%;
   padding: 50px;
@@ -196,15 +202,23 @@
 }
 
 body {
-  background-color: #1e272e;
+  background-color: #000;
+}
+
+.title-big {
+  font-size: 60px;
 }
 
 .title {
-  font-size: 44px;
+  font-size: 48px;
 }
 
 .title-small {
-  font-size: 20px;
+  font-size: 32px;
+}
+
+.text {
+  font-size: 18px;
 }
 
 .span_color {

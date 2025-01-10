@@ -3,7 +3,8 @@
 .barra {
     display: flex;
     justify-content: space-between;
-    margin: 40px 0;
+    padding: 60px 30px;
+    background-color: variaveis.$colorBackground;
 
     .seta {
         font-size: 22px;

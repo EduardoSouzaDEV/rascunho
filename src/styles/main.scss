@@ -8,16 +8,25 @@
 @use "./info";
 @use "./feed";
 
+
 body {
-    background-color: variaveis.$colorBackground;
+    background-color: #000;
+}
+
+.title-big {
+    font-size: 60px;
 }
 
 .title {
-    font-size: 44px;
+    font-size: 48px;
 }
 
 .title-small {
-    font-size: 20px;
+    font-size: 32px;
+}
+
+.text {
+    font-size: 18px;
 }
 
 .span_color {
