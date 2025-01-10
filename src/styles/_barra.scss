@@ -32,10 +32,15 @@
         }
     }
 
+    @media(max-width: 1024px) {
+        padding: 40px;
+    }
+
     @media(max-width: 450px) {
             display: flex;
             justify-content: space-between;
             padding: 10px 20px;
             background-color: #1e272e;
+            margin: 0 auto;
     }
 }

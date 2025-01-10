@@ -51,6 +51,9 @@
   border: 2px solid #C4E538;
 }
 @media (max-width: 1024px) {
+  .header {
+    padding: 40px;
+  }
   .header .header button {
     font-size: 16px;
     padding: 7px 20px;
@@ -143,12 +146,18 @@
   border-radius: 5px;
   color: #000;
 }
+@media (max-width: 1024px) {
+  .barra {
+    padding: 40px;
+  }
+}
 @media (max-width: 450px) {
   .barra {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
     background-color: #1e272e;
+    margin: 0 auto;
   }
 }
 
@@ -178,9 +187,19 @@
   margin-bottom: 20px;
 }
 @media (max-width: 1024px) {
+  .about {
+    display: block;
+    text-align: center;
+  }
   .about .about_image img {
-    width: 450px;
+    width: 100%;
     border-radius: 20px;
+  }
+  .about .about_text {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
   }
 }
 @media (max-width: 450px) {
@@ -221,6 +240,11 @@
   background-color: #000;
   margin-bottom: 10px;
 }
+@media (max-width: 1024px) {
+  .services {
+    padding: 40px;
+  }
+}
 @media (max-width: 450px) {
   .services {
     padding: 20px;
@@ -260,10 +284,10 @@
   height: 550px;
 }
 @media (max-width: 1024px) {
-  .info .info .info_text {
+  .info {
     display: flex;
     flex-direction: column;
-    padding: 10px 30px;
+    padding: 40px 30px;
     margin: 0 auto;
   }
   .info .info .info_text .item {
@@ -276,7 +300,10 @@
   }
   .info .info_image img {
     border-radius: 20px;
-    height: 400px;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
   }
 }
 @media (max-width: 450px) {

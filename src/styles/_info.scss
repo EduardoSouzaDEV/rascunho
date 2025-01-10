@@ -35,13 +35,10 @@
     }
 
     @media(max-width: 1024px) {
-
-        .info .info_text {
             display: flex;
             flex-direction: column;
-            padding: 10px 30px;
+            padding: 40px 30px;
             margin: 0 auto;
-        }
 
         .info .info_text .item {
             background-color: #000;
@@ -55,7 +52,10 @@
         .info_image {
             img {
                 border-radius: 20px;
-                height: 400px;
+                width: 70%;
+                height: auto;
+                margin: 0 auto;
+                display: flex;
             }
         }
     }
