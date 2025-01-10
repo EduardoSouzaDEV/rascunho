@@ -3,10 +3,6 @@
 .services {
     padding: 70px;
 
-    .grid_container{
-
-    
-
     .title {
         max-width: 100%;
         padding: 30px;
@@ -22,7 +18,7 @@
 
             .seta {
                 font-size: 18px;
-                color:variaveis.$colorPrimary;
+                color: variaveis.$colorPrimary;
             }
 
 
@@ -37,7 +33,5 @@
                 margin-bottom: 10px;
             }
         }
-
     }
-}
 }

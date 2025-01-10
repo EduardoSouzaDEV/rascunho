@@ -37,7 +37,8 @@
   font-size: 16px;
 }
 .header button {
-  padding: 5px 10px;
+  font-size: 18px;
+  padding: 8px 20px;
   border-radius: 10px;
   background-color: #C4E538;
   color: #000;
@@ -81,7 +82,7 @@
 .barra {
   display: flex;
   justify-content: space-between;
-  padding: 60px 30px;
+  padding: 60px 40px;
   background-color: #1e272e;
 }
 .barra .seta {
@@ -109,19 +110,16 @@
   display: grid;
   padding: 40px 40px;
   grid-template-columns: 1fr 1fr;
-  gap: 130px;
-}
-.about .about_image {
-  margin: 5dvh;
+  gap: 110px;
 }
 .about .about_image img {
-  width: 480px;
+  width: 600px;
   border-radius: 20px;
 }
 .about .about_text {
   max-width: 342px;
 }
-.about .about_text .title {
+.about .about_text .title-big {
   margin-bottom: 30px;
 }
 .about .about_text p {

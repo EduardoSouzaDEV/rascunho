@@ -4,12 +4,11 @@
     display: grid;
     padding: 40px 40px;
     grid-template-columns: 1fr 1fr;
-    gap: 130px;
+    gap: 110px;
 
     .about_image {
-        margin: 5dvh;
         img {
-            width: 480px;
+            width: 600px;
             border-radius: 20px;
         }
     }
@@ -18,7 +17,7 @@
     .about_text {
         max-width: 342px;
 
-        .title {
+        .title-big {
             margin-bottom: 30px;
         }
 
