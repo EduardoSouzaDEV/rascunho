@@ -31,4 +31,10 @@
             border: 2px solid variaveis.$colorPrimary;
         }
     }
+
+    @media(max-width: 450px) {
+            text-align: center;
+            background-color: #1e272e;
+            padding: 40px 20px;
+    }
 }

@@ -34,4 +34,12 @@
             }
         }
     }
+
+    @media(max-width: 450px) {
+            padding: 20px;
+            text-align: center;
+        .services_nav {
+            display: block;
+        }
+    }
 }

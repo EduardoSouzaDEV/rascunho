@@ -31,4 +31,39 @@
         background-color: variaveis.$colorBackground;
         border: 2px solid variaveis.$colorPrimary;
     }
+
+    @media(max-width: 1024px) {
+
+
+        .header button {
+            font-size: 16px;
+            padding: 7px 20px;
+            border-radius: 10px;
+            background-color: #C4E538;
+            color: #000;
+            cursor: pointer;
+            border: 2px solid #C4E538;
+        }
+    }
+
+    @media(max-width: 450px) {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+
+            button {
+                font-size: 16px;
+                padding: 10px 10px;
+                border-radius: 10px;
+                background-color: #C4E538;
+                color: #000;
+                cursor: pointer;
+                border: 2px solid #C4E538;
+            }
+
+            .navbar {
+                gap: 10px;
+                display: flex;
+            }
+        }
 }
