@@ -1,12 +1,16 @@
 @use "./config/variaveis.scss";
 
 .info {
-    display: flex;
+    display: grid;
     margin-bottom: 40px;
-    padding: 40px 0;
+    padding: 60px ;
+    grid-template-columns: 1fr 1fr;
 
     .info_text {
+        display: flex;
+        flex-direction: column;
         padding: 10px 50px;
+        margin: 0 auto;
 
         .title {
             width: 300px;

@@ -106,8 +106,10 @@
 }
 
 .about {
-  display: flex;
-  padding: 40px 0;
+  display: grid;
+  padding: 40px 40px;
+  grid-template-columns: 1fr 1fr;
+  gap: 130px;
 }
 .about .about_image {
   margin: 5dvh;
@@ -117,7 +119,7 @@
   border-radius: 20px;
 }
 .about .about_text {
-  padding: 50px 90px;
+  max-width: 342px;
 }
 .about .about_text .title {
   margin-bottom: 30px;
@@ -162,12 +164,16 @@
 }
 
 .info {
-  display: flex;
+  display: grid;
   margin-bottom: 40px;
-  padding: 40px 0;
+  padding: 60px;
+  grid-template-columns: 1fr 1fr;
 }
 .info .info_text {
+  display: flex;
+  flex-direction: column;
   padding: 10px 50px;
+  margin: 0 auto;
 }
 .info .info_text .title {
   width: 300px;
