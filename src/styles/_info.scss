@@ -1,10 +1,14 @@
 @use "./config/variaveis.scss";
 
 .info {
-    display: grid;
-    margin-bottom: 40px;
-    padding: 60px ;
-    grid-template-columns: 1fr 1fr;
+    
+    .grid_container {
+        display: grid;
+        margin-bottom: 40px;
+        padding: 60px ;
+        grid-template-columns: 1fr 1fr;
+        
+    
 
     .info_text {
         display: flex;
@@ -33,4 +37,5 @@
             height: 550px;
         }
     }
+}
 }
